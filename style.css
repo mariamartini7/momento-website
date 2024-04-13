@@ -1,0 +1,68 @@
+/* letras e background */
+
+/* navbar */
+
+.color-main{
+    color: #dd247b;
+}
+
+.navbar{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px;
+    gap: 8px;
+}
+
+.logo-container > img{
+    width: 32px;
+}
+
+.navbar-link{
+    margin: 16px;
+}
+
+.navbar-button{
+    padding: 8px 16px;
+    border: none;
+    background-color: #dd247b;
+    color: #f3f3f3;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.user-icon{
+    width: 32px;
+    height: 32px;
+    background-color: #dd247b;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+
+.navbar-div{
+    width: 64px;
+}
+
+footer .navbar{
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    border-top: 1px solid #aeaeae;
+    max-width: none;
+    
+}
+
+.navbar .bottom-navbar-button{
+    padding: 16px 64px;
+    
+}
